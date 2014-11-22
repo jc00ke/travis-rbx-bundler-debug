@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'pg'
-gem 'puma', '2.6.0'
+gem 'puma'
 
 # Run-time dependencies
 gem 'rails', '3.2.19'
