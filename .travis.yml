@@ -1,0 +1,13 @@
+language: ruby
+rvm:
+  - rbx-2
+env:
+  global:
+    - BUNDLE_JOBS=4
+
+install: bundle install --retry=3
+
+script:
+  - echo "asdf"
+cache: bundler
+
