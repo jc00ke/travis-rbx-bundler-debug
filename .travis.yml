@@ -10,3 +10,4 @@ script:
 
 before_install:
   - gem update bundler
+  - bundler --version
