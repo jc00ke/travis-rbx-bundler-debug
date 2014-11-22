@@ -7,3 +7,5 @@ install: bundle install --retry=3 --jobs=4
 script:
   - echo "asdf"
 
+before_install:
+  - gem update bundler
