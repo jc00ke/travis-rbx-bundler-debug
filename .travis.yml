@@ -3,7 +3,7 @@ language: ruby
 rvm:
   - rbx-2
 
-install: bundle install --retry=3 --jobs=4
+install: bundle install --retry=3
 
 script:
   - echo "fixed it?"
